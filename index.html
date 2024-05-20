@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="css/header.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="css/footer.css?v=<?php echo time(); ?>">
   <link rel="stylesheet" href="css/main.css?v=<?php echo time(); ?>">
   <script src="js/jquery-3.7.1.min.js"></script>
   <script src="js/jquery-ui.min.js"></script>
@@ -30,8 +32,8 @@
   <script type="text/javascript">   
     $(document).ready( function() {
     
-      $("#headers").load("common/header.html");  // 원하는 파일 경로를 삽입하면 된다
-      $("#footers").load("common/footer.html");  // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
+      $("#header").load("common/header.html");  // 원하는 파일 경로를 삽입하면 된다
+      $("#footer").load("common/footer.html");  // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
     
     });
     </script>
@@ -42,8 +44,8 @@
     <a href="#container">본문바로가기</a>
   </div>
   <div id="wrap">
-    <header id="headers"></header>
-    <footer id="footers"></footer>  
+    <header id="header"></header>
+    <footer id="footer"></footer>  
     
     
   </div>
