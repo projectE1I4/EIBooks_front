@@ -1,0 +1,10 @@
+
+
+#customerCart_wrap {
+  width: 1280px;
+  margin: 0 auto;
+}
+#customerCart_wrap .inner {
+  height: 50px;
+  border: 1px solid red !important; /*보이라고 해둔 border임 나중에 삭제*/
+}
